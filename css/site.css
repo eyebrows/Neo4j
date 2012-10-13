@@ -1,0 +1,55 @@
+body
+{
+	margin:15px;
+}
+
+body,
+input,
+select,
+textarea,
+td
+{
+	font-family:Verdana;
+	font-size:11px;
+}
+
+h1
+{
+	font-size:14px;
+}
+
+h2
+{
+	color:#555555;
+	font-size:12px;
+	margin-top:15px;
+}
+
+p
+{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+p:first-child
+{
+	margin-top:0px;
+}
+
+p:last-child
+{
+	margin-bottom:0px;
+}
+
+ul
+{
+	margin-top:7px;
+	padding-left:25px;
+}
+
+div.boxout_node
+{
+	background-color:#f8f8f8;
+	padding:15px;
+	border-left:15px #e8e8e8 solid;
+}
