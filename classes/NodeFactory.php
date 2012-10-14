@@ -4,9 +4,9 @@ class NodeFactory {
 	public function __construct() {
 	}
 
-	public function createNodeFromDB($id, $json) {
+	public function createNodeFromJSON($json) {
 		$assoc = json_decode($json, 'return_assoc');
-		return new Node($id, $assoc['data']);
+		return new Node(end(explode('/', $assoc['self'])), $assoc['data']);
 	}
 
 	public function injectProperties($node, $json) {
