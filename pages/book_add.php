@@ -23,8 +23,9 @@ if($error)
 	print '<div class="message error">'.$error.'</div>';
 ?>
 <div class="boxout">
+	<h1>Add New Book</h1>
 	<form name="BookAdd" action="<?=SITE_URL?>?page=<?=$_GET['page']?>" method="POST">
-		<table>
+		<table class="node_form">
 		<tr>
 			<td>Title</td>
 			<td><input type="text" name="title" value="<?=$_POST['title']?>"></td>
@@ -34,10 +35,8 @@ if($error)
 			<td><input type="text" name="author" value="<?=$_POST['author']?>"></td>
 		</tr>
 		<tr>
-			<td colspan="2"><input type="submit" name="action" value="Add"></td>
+			<td colspan="2"><input type="submit" name="action" value="Add Book"></td>
 		</tr>
 		</table>
 	</form>
-</div>
-/form>
 </div>

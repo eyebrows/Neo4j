@@ -22,14 +22,15 @@ if($error)
 	print '<div class="message error">'.$error.'</div>';
 ?>
 <div class="boxout">
+	<h1>Add New Person</h1>
 	<form name="PersonAdd" action="<?=SITE_URL?>?page=<?=$_GET['page']?>" method="POST">
-		<table>
+		<table class="node_form">
 		<tr>
 			<td>Name</td>
 			<td><input type="text" name="name"></td>
 		</tr>
 		<tr>
-			<td colspan="2"><input type="submit" name="action" value="Add"></td>
+			<td colspan="2"><input type="submit" name="action" value="Add Person"></td>
 		</tr>
 		</table>
 	</form>

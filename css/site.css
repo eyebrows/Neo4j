@@ -16,6 +16,7 @@ td
 h1
 {
 	font-size:14px;
+	margin-bottom:15px;
 }
 
 h2
@@ -123,3 +124,22 @@ ul#nav
 		border-color:#DE000B;
 	}
 
+table.node_form td
+{
+	padding:5px 0px;
+}
+
+	table.node_form tr:first-child td
+	{
+		padding-top:0px;
+	}
+
+	table.node_form tr:last-child td
+	{
+		padding-bottom:0px;
+	}
+
+	table.node_form tr td:first-child
+	{
+		padding-right:15px;
+	}
